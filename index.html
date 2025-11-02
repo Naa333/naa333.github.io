@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+  <style>
+    .vid-size{
+      min-height: 50%;
+      min-width: 50%
+    }
+  </style>
+</head>
 <body>
   <h1>Static website hosting example</h1>
   <p>Treating viewers to what is possibly my favorite scene from HIMYM</p>
-  <video width="350" height= "350" controls> 
-    <source src="https://www.youtube.com/watch?v=Z6PbBVTRTl8" />
-    Unable to play video in your browser
-  </video>
+  <iframe 
+    id="vid-size" 
+    src = "https://www.youtube.com/watch?v=Z6PbBVTRTl8"
+  </iframe>
 </body>
 
 </html>
